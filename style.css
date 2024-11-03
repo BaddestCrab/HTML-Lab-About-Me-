@@ -1,13 +1,47 @@
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Text color */
+}
+
+/* Container for content */
+h1, h2 {
+    max-width: 800px; /* Maximum width for headings */
+    margin: 20px auto; /* Centering the headings */
+    text-align: center; /* Centered text */
+}
+
+/* Styles for main heading */
+h1 {
+    font-size: 2.5em;
+    color: #004080; /* Dark blue color for the main heading */
+    text-shadow: 1px 1px 2px #000; /* Subtle shadow for depth */
+}
+
+/* Styles for section headings */
+h2 {
+    font-size: 2em;
+    color: #0056b3; /* Lighter blue for section headings */
+    margin-top: 40px; /* Space above section headings */
+    border-bottom: 2px solid #0056b3; /* Underline effect */
+    padding-bottom: 10px; /* Space below headings */
+}
+
+/* Paragraph styles */
+p {
+    max-width: 800px; /* Limit paragraph width */
+    margin: 0 auto 20px auto; /* Center paragraphs with margin below */
+    padding: 10px;
+    background-color: #ffffff; /* White background for readability */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+}
+
+/* Emphasized text */
+em {
+    color: #ff4500; /* Emphasized text color */
+    font-weight: bold; /* Bold for emphasis */
+}
