@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+
+        <p id="greeting"></p> <!-- Greeting placeholder -->
+        <p id="current-date"></p> <!-- Date placeholder -->
+
         <h1>About Me!</h1>
         <p>My name is William George and I am a student at BYU. I am currently going to major in cybersecurity. This is a webpage about me!</p>
     
@@ -22,4 +29,20 @@
         <h2>Conclusion</h2>
         <p>Thank you for reading my webpage about me!</p>
     </body>
+    </script>
+        // JavaScript to greet the reader based on the time of day
+            const now = new Date();
+            const hours = now.getHours();
+            const greetingElement = document.getElementById('greeting');
+    
+            if (hours < 12) {
+                greetingElement.textContent = "Good morning!";
+            } else {
+                greetingElement.textContent = "Good afternoon!";
+            }
+    
+            // JavaScript to show the current date and time
+            const dateElement = document.getElementById('current-date');
+            dateElement.textContent = `Current date and time: ${now.toLocaleString()}`;
+    </script>
 </html>
