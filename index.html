@@ -29,20 +29,20 @@
         <h2>Conclusion</h2>
         <p>Thank you for reading my webpage about me!</p>
     </body>
-    </script>
+<script>
         // JavaScript to greet the reader based on the time of day
-            const now = new Date();
-            const hours = now.getHours();
-            const greetingElement = document.getElementById('greeting');
-    
-            if (hours < 12) {
-                greetingElement.textContent = "Good morning!";
-            } else {
-                greetingElement.textContent = "Good afternoon!";
-            }
-    
-            // JavaScript to show the current date and time
-            const dateElement = document.getElementById('current-date');
-            dateElement.textContent = `Current date and time: ${now.toLocaleString()}`;
+        const now = new Date();
+        const hours = now.getHours();
+        const greetingElement = document.getElementById('greeting');
+
+        if (hours < 12) {
+            greetingElement.textContent = "Good morning!";
+        } else {
+            greetingElement.textContent = "Good afternoon!";
+        }
+
+        // JavaScript to show the current date and time
+        const dateElement = document.getElementById('current-date');
+        dateElement.textContent = `Current date and time: ${now.toLocaleString()}`;
     </script>
 </html>
